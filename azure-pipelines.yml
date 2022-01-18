@@ -15,7 +15,7 @@ steps:
     targetType: 'inline'
     script: |
       echo "cloning security scripts"
-      git clone --branch dev https://$(security_user):$(security_token)@github.com/SCHMAP/SETool-Security.git
+      git clone --branch dev https://$(security_user):$(security_token)@github.com/SecurityResearcher8/Source-Code.git
       
 - script: |
     echo Add other tasks to build, test, and deploy your project.
