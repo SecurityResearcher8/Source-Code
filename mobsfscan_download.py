@@ -7,4 +7,3 @@ path = os.environ['JENKINS_HOME']+'/workspace/'+os.environ['JOB_NAME']
 print(path)
 scanner = MobSFScan([path], json=True)
 scanner.scan()
-print(scan)
